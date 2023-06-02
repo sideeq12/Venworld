@@ -1,0 +1,75 @@
+.navbar{
+    width : 100vw;
+    padding : 10px 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+
+.navbar .menu, .navbar .menux{
+ width: fit-content;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.menu .account, .menux .account{
+    padding: 10px 15px;
+    color : #fff;
+    background-color: #2D2F93;
+    border-radius: 8px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.menu .account svg, .menux .account svg{
+    margin-right: 5px;
+}
+.navbar .menu ul li, .navbar .menux ul li{
+    display: inline;
+    margin : 0px 20px;
+}
+
+.navbar .menu ul li a, .navbar .menux ul li a{
+    text-decoration: none;
+}
+.navbar .menu ul li a:hover, .navbar .menux ul li a:hover{
+    color: #2D2F93;
+}
+.burger{
+    display: none;
+}
+@media (max-width : 790px) {
+    .navbar{
+        padding: 10px 20px;
+        align-items: flex-start;
+        justify-content: space-between;
+        z-index: 10;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        right: 30px;
+    }
+    .burger:hover{
+        cursor: pointer;
+    }
+    .navbar .menu{
+        margin: 20px auto;
+        flex-direction: column;
+
+        height: 100vh;
+    }
+    .navbar .menux{
+        margin-top: -400px;
+    }
+    .navbar .menu ul li{
+        display: block;
+        margin : 25px 10px;
+    }
+}

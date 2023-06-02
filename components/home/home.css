@@ -1,0 +1,103 @@
+.homeBg{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    padding: 0px 30px 100px 40px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.90)), url("./back.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    color : #fff;
+
+}
+.homeBg .details, .details img{
+    width: 40vw;
+    height: fit-content;
+}
+.homeBg h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.homeBg .details p {
+    margin-bottom: 20px;
+}
+.details button{
+    padding: 12px 25px;
+    margin-right: 20px;
+}
+
+button#about{
+    border : 2px solid #00ACF1;
+}
+button#team{
+    color : #fff;
+    background-color: #00ACF1;
+}
+
+.socials{
+    margin-top: 30px;
+    display: flex;
+}
+.socials label{
+    margin-right: 40px;
+    display: flex;
+    color: #ffffffa6;
+    justify-content: space-around;
+    gap: 0.3rem;
+    align-items: center;
+
+}
+.imagesection{
+    width: 40vw;
+    margin-top: 40px;
+    max-height: 80vh;
+
+}
+.imagesection img{
+    max-height: 80vh;
+}
+.imagesection .brace{
+    position: relative;
+    bottom: 180px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+@media (max-width : 720px) {
+    .homeBg .details, .details img, .imagesection{
+        width: 500px;
+    }
+    .homeBg{
+        padding-bottom: 30px;
+    }
+    .homeBg h1{
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .imagesection{
+        margin-top: 20px;
+        height: 380px;
+    }
+    .imagesection img{
+        height: 380px;
+    }
+    .homeBg .details p {
+        margin-bottom: 5px;
+        font-size: small;
+    }
+    .details button{
+        padding: 6px 15px;
+        font-size: small;
+        margin-right: 20px;
+    }
+    .imagesection .brace{
+        position: relative;
+        bottom: 250px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+}

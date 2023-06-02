@@ -1,0 +1,48 @@
+.myimage{
+    background-image: url("about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+}
+.ic{
+    background-image: url("iconfi.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.bars .high{
+    margin-top: 15px;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.bar{
+    background-color: #959595;
+    height: 3px;
+    width:  100%;
+}
+.bar div{
+    height: 3px;
+    width: 50%;
+    background-color: #2D2F93;;
+}
+.bar div span{
+    height: 20px;
+    width: 8px;
+    background-color: #2D2F93;;
+    float: right;
+    margin-top: -8px;
+}
+.bar .Ux {
+    width: 65%;
+    }
+.bar .Market {
+     width: 90%;
+        }
+.bar .Web{
+    width: 70%;
+            }

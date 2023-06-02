@@ -1,0 +1,19 @@
+.blogfirst{
+    background-image: url("./blog.png");
+    background-size: cover;
+}
+
+.blogcy{
+    background: #2d2f93d7;
+}
+
+.second{
+    background: linear-gradient(rgba(0, 0, 0, 0.60),
+     rgba(0, 0, 0, 0.90)), url("./reseach.png") no-repeat;
+    background-size: cover;
+}
+.third{
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.90)), 
+    url("./third.png") no-repeat;
+    background-size: cover;
+}
