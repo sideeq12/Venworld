@@ -20,7 +20,7 @@ function About() {
                 <Bars />
                 <div className='flex flex-row justify-between mt-10'>
                     <div className='ic'></div>
-                    <button className='px-10 py-3 text-white rounded-md  bg-blue-950 '>Contact Us</button>
+                    <button className='px-10 py-3 text-white rounded-md  bg-blue-950 '>Learn more...</button>
                 </div>
             </div>
         </div>

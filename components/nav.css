@@ -9,6 +9,7 @@
 }
 
 
+
 .navbar .menu, .navbar .menux{
  width: fit-content;
  display: flex;
@@ -44,12 +45,27 @@
 .burger{
     display: none;
 }
+.logo{
+    background-image: url('latest.png');
+    object-position: center;
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
 @media (max-width : 790px) {
     .navbar{
         padding: 10px 20px;
         align-items: flex-start;
         justify-content: space-between;
         z-index: 10;
+    }
+    .logo{
+        height: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;        
     }
     .burger{
         display: block;

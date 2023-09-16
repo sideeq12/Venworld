@@ -1,0 +1,19 @@
+.mic{
+    background-image: url('fcount.svg');
+}
+.mic, .mine, .awward, .sat{
+    height: 30px;
+    width: 30px;
+    margin: 0px auto;
+    object-fit: contain;
+    background-size: cover;
+}
+.mine{
+    background-image: url('linked.png');
+}
+.awward{
+    background-image: url('Trophy.png');
+}
+.sat{
+    background-image: url('Prize.png');
+}

@@ -87,11 +87,14 @@ function Slides() {
         </div>
     </div>
     <div className="direction mx-auto text-center flex justify-center gap-4">
-        <div onClick={slideLeft} className="right cursor-pointer h-[20px] w-[20px]
-         border border-blue-900 
-        rounded-full"><span className='-mt-5  bg-red-500 h-[5px] rounded-full w-[10px]
-         '>.</span></div>
-        <div onClick={slideRight} className="left cursor-pointer">le</div>
+        <div onClick={slideLeft} className="right cursor-pointer
+         border bg-blue-600 p-4 rounded-full "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left" viewBox="0 0 16 16">
+  <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+</svg></div>
+        <div onClick={slideRight} className="left cursor-pointer
+         border bg-blue-600 p-4 rounded-full "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-right" viewBox="0 0 16 16">
+  <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+</svg></div>
     </div>
    </div>
   )

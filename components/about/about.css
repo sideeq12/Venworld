@@ -10,6 +10,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 100px;
+    /* animation: change 2s  infinite; */
 }
 .bars .high{
     margin-top: 15px;
@@ -46,3 +47,13 @@
 .bar .Web{
     width: 70%;
             }
+
+/* @keyframes change {
+    0%{
+    background-image: url('life.jpg')
+    }50%{
+        background-image: url('life.jpg')
+    }100%{
+        background-image: url('about.jsx')
+    }
+} */

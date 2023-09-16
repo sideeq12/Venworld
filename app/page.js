@@ -8,10 +8,11 @@ import News from '@/components/newsletter/news'
 import Footer from '@/components/footer/footer'
 import Slides from '@/components/firstslide/slide'
 import SlideX from '@/components/review/review'
+import Count from '@/components/counts/count'
 
 export default function Home() {
   return (
-   <body className=''>
+   <div className='overflow-x-hidden'>
     <Navbar />
     <Homex />
     <Slides />
@@ -20,7 +21,8 @@ export default function Home() {
     <Mission />
     <News />
     <Slides />
+    <Count />
     <Footer />
-    </body>
+    </div>
   )
 }
