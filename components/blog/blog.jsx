@@ -8,7 +8,7 @@ function Blog() {
         <p className=' w-full md:w-3/5'>Follow our latest news and touches which focus exclusively on design
         , art , vintages and also work updates.</p>
         <div className='flex flex-col md:flex-row gap-2 mt-5'>
-            <div className="w-full rounded-lg md:w-3/5 border h-96 relative blogfirst"> 
+            <div className="w-full rounded-lg md:w-3/5 border h-auto relative blogfirst"> 
             <div className='mt-auto px-4 py-4  blogcy w-full h-1/2 md:h-48 text-white absolute bottom-0'>
                 <h3 className='font-bold text-sm md:text-xl mb-2'>
                 Congratulations are in order to our Head of Graphics Designer at VenWorld Global (Josiah Damilare)
