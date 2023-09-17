@@ -12,8 +12,8 @@ function Homex() {
             <p>We are a full-service creative digital  marketing agency,
             collaborating with brand all over the world</p>
             <div>
-                <button id="about">ABOUT US</button>
-                <button id='team'>OUR TEAM</button>
+                <button id="about" className='rounded-lg'>ABOUT US</button>
+                <button id='team' className='rounded-lg'>OUR TEAM</button>
             </div>
 
             <div className='socials'>
