@@ -12,7 +12,7 @@ function SlideText() {
         <button onClick={(e)=> setHolder(true)} className='px-5  text-gray-500 mr-4 rounded-md
          hover:bg-blue-950 hover:text-white '>Our Vision</button>
         </div>
-        { !holder ?  <p className='mt-10 text-gray-800 text-sm'>With over a decade of experience, 
+        { !holder ?  <p className='mt-10 text-sm'>With over a decade of experience, 
             we’ve established ourselves as one the of pioneering agencies in the region.
             <br />
             <ul className='mt-5'>
