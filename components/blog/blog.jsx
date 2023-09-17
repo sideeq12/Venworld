@@ -23,15 +23,15 @@ function Blog() {
                     </div>
             </div>
             </div>
-            <div className='w-full md:w-2/5  h-96'>
-                <div className='h-48 border border-cyan second relative'>
+            <div className='w-full md:w-2/5  h-[30rem]'>
+                <div className='h-48 border border-cyan second relative rounded-lg mb-20'>
                     <div className='absolute bottom-0 text-white px-3 pb-4'>
                     We research, build and design the design the best tools, to make your web development idea
                     becomes reality, with branded .. 
                     <button className='px-1 py-1 bg-slate-100 mr-3 text-black text-sm rounded-sm'>Learn more</button>
                     </div>
                 </div>
-                <div className='h-48 border border-cyan mt-2 third relative'>
+                <div className='h-48 rounded-lg border border-cyan mt-2 third relative mb-20'>
                 <div className='absolute bottom-0 text-white px-3 pb-4'>
                 Venworld Global is in affiliation with Golden Signature Advertising LLC Dubai, United Arab Emirates for .......
                     <button className='px-1 py-1 bg-slate-100 mr-3 text-black text-sm rounded-sm'>Learn more</button>
