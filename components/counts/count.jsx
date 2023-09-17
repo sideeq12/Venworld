@@ -11,7 +11,7 @@ function Count() {
         rating : 100
     })
   return (
-    <div className='px-3 md:px-10 mt-8 py-20 text-blue-900 flex  sm:flex-col md:flex-row gap-2 justify-around bg-[#E5E5EE]'>
+    <div className='px-3 md:px-10 mt-8 py-5 text-blue-900 flex  sm:flex-col md:flex-row gap-2 justify-around bg-[#E5E5EE]'>
         <div className='border text-center'>
             <div className='mic'>
             </div>
