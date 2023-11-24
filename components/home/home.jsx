@@ -30,8 +30,8 @@ Facebook</label>
             </div>
         </div>
         <div className="imagesection">
-            <Image src={homeimage}  width={350} height={200}/>
-            <Image className='brace' src={brace} width={100} height={100} />
+            <Image src={homeimage}  width={350} height={200} alt="homepage image"/>
+            <Image className='brace' src={brace} width={100} height={100}  alt='brace image'/>
         </div>
     </div>
   )

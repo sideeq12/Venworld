@@ -29,12 +29,12 @@ function Navbar() {
 
           <div  className={status ? `menu ` : `menux`}>
             <ul className='text-blue-900'>
-              <li><Link  href="#">HOME</Link></li>
-              <li><Link href="#">ABOUT US</Link></li>
-              <li><Link href="#">SERVICES</Link></li>
-              <li><Link href="#">PORTFOLIOS</Link></li>
+              <li><Link  href="/">HOME</Link></li>
+              <li><Link href="/about">ABOUT US</Link></li>
+              <li><Link href="/services">SERVICES</Link></li>
+              <li><Link href="/portfolio">PORTFOLIOS</Link></li>
               <li><Link href="#">BLOGS</Link></li>
-              <li><Link href="#">SVET</Link></li>
+              <li><Link href="/career">SVET</Link></li>
             </ul>
             <Link className='account' href="/" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
