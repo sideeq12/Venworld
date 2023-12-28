@@ -6,6 +6,7 @@ import Mission from '@/components/mission/mission'
 import News from '@/components/newsletter/news'
 import Slides from '@/components/firstslide/slide'
 import Count from '@/components/counts/count'
+import HorizonScroll from '@/components/horizontalscroll/scrollmenu'
 
 export default function Home() {
   return (
@@ -16,9 +17,8 @@ export default function Home() {
     <About />
     <Mission />
     <News />
-    <Slides />
+   <HorizonScroll />
     <Count />
-
     </div>
   )
 }

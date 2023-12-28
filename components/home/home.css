@@ -1,28 +1,31 @@
 .homeBg{
-    width: 100vw;
+    min-width: 100vw;
     height: fit-content;
     display: flex;
-    padding: 0px 30px 100px 40px;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.90)), url("./back.png") no-repeat;
     background-size: cover;
     background-position: center;
+
+    background-image:  url("./black-woman.jpg");
     color : #fff;
+    animation: changeBg 15s  infinite;
 
 }
-.homeBg .details, .details img{
-    width: 40vw;
-    height: fit-content;
+.homeBg .details{
+ padding: 15vw 20px;
+ margin: 0;
 }
+
 .homeBg h1{
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bolder;
     margin-bottom: 20px;
 }
 .homeBg .details p {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    
 }
 .details button{
     padding: 12px 25px;
@@ -64,6 +67,22 @@ button#team{
     bottom: 180px;
     margin-left: auto;
     margin-right: 80px;
+}
+/* linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.90)), */
+@keyframes changeBg {
+    0%{
+
+    background-image:  url("./black-woman.jpg") ;
+    }
+    33%{
+
+    background-image:  url("./back.png") ;
+    }
+    66%{
+
+    background-image:  url("./third.jpg") ;
+    }
+    
 }
 
 @media (max-width : 720px) {

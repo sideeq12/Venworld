@@ -9,7 +9,7 @@ function Blog() {
         , art , vintages and also work updates.</p>
         <div className='flex flex-col md:flex-row gap-2 mt-5'>
             <div className="w-full rounded-lg md:w-3/5 border h-[32rem] mb-5 relative blogfirst"> 
-            <div className='mt-auto px-4 py-4  blogcy w-full h-1/2 md:h-48 text-white absolute bottom-0'>
+            <div className='mt-auto px-4 py-4  blogcy w-full h-1/2 md:h-56 text-white absolute bottom-0'>
             <span className='bg-white text-blue-800 p-1 rounded-md  mb-2 text-xs'>Award & recognition</span>
                    
                 <h3 className='font-bold text-sm md:text-xl mb-2'>

@@ -17,7 +17,12 @@ function SlideText() {
             <br />
             <ul className='mt-5'>
                 <li>We are made of passionate leaders </li>
-                <li>strategiest, Managers, Developers, animators and designers.</li></ul></p> : "yes"}
+                <li>strategiest, Managers, Developers, animators and designers.</li></ul></p> : <p 
+                 className='mt-5 md:mt- text-sm'>With a decade of pioneering 
+                  experience, we're a leading agency in shaping Software and Media Industry. Comprising passionate leaders,
+                   strategists, developers, animators, and designers. <br /> <br /> We redefine standards through creativity.
+                   Our vision is to consistently deliver cutting-edge solutions, driving innovation in the
+                    dynamic world of Venworld Global. Join us on this journey of excellence.</p>}
 
     </div>
   )

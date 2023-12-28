@@ -7,9 +7,9 @@ import "./home.css"
 function Homex() {
   return (
     <div className='homeBg'>
-        <div className="details">
-            <h1>IMPROVE YOUR BUSINESS TODAY</h1>
-            <p>We are a full-service creative digital  marketing agency,
+        <div className="details w-full h-full bg-opacity-50 transition-all">
+            <h1>IMPROVE YOUR  <br /> BUSINESS TODAY</h1>
+            <p>We are a full-service creative digital  marketing agency, 
             collaborating with brand all over the world</p>
             <div>
                 <button id="about" className='rounded-lg'>ABOUT US</button>
@@ -30,8 +30,8 @@ Facebook</label>
             </div>
         </div>
         <div className="imagesection">
-            <Image src={homeimage}  width={350} height={200} alt="homepage image"/>
-            <Image className='brace' src={brace} width={100} height={100}  alt='brace image'/>
+            {/* <Image src={homeimage}  width={350} height={200} alt="homepage image"/> */}
+            {/* <Image className='brace' src={brace} width={100} height={100}  alt='brace image'/> */}
         </div>
     </div>
   )
