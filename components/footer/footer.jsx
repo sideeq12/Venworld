@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -6,19 +7,18 @@ function Footer() {
      px-10 md:px-15 py-5 md:py-20 grid gap-2 lg:grid-cols-5
      grid-cols-2 sm:gap-0
      sm:grid-cols-1
-     md:grid-cols-3
+     md:grid-cols-3 font-light
     '>
         <div className='md:mr-10 mb-10 md:mb-0 '>
-        <h2 className='mb-5 font-bold text-xl'>heb</h2>
-            <p className='text-sm text-slate-100 mt-5'>VenWorld is a renowned SOftware Engineering and media solutions company thriving to take 
+        <div className='logo'></div>
+            <p className='text-sm text-slate-100 mt-5 font-light'>VenWorld is a renowned SOftware Engineering and media solutions company thriving to take 
                 your business setup to the next phase of development , we assure that our well-planned
                 serivices could definetely bring your brand to the limelight.
             </p>
         </div>
         <div className='mb-10 md:mb-0'>
-            <h2 className='mb-5 font-bold text-xl'>heb</h2>
             <ul className='text-sm'>
-                <li className='mt-2'>Home</li>
+                <li className='mt-2'> <Link href="/">Home</Link></li>
                 <li className='mt-3'>About Us</li>
                 <li className='mt-3'>Services</li>
                 <li className='mt-3'>Products</li>
