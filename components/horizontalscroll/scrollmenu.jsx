@@ -102,7 +102,7 @@ function Card({ onClick, selected, details, itemId }) {
       tabIndex={0}
     >
       <div className="card ">
-        <div className='w-16 h-16 rounded-full border-2 mb-8'></div>
+        <div className='w-16 h-16 rounded-full border-2 mb-8 bg-dp bg-center bg-cover'></div>
         <div>{details}</div>
         <h4 className='font-semibold text-lg mt-5'>Emilia Santos</h4>
       </div>

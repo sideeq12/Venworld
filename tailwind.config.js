@@ -12,7 +12,8 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'workplace' : "url('/work.jpeg')",
-        'woman' : "url('/black-woman.jpg')"
+        'woman' : "url('/black-woman.jpg')",
+        'dp' : "url('/user.jpg')"
       },
     },
   },
