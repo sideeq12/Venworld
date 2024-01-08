@@ -19,7 +19,7 @@ const UserCard = ()=>{
 
 </div>
 <div className="w-48 h-64 border border-black text-center text-xs">
-            <div className="w-4/5 bg-workplace bg-contain h-2/3 mx-auto my-3">
+            <div className="w-4/5 bg-sideeq  bg-cover bg-center h-2/3 mx-auto my-3">
             </div>
             <span className="">
                 VenWorld Global

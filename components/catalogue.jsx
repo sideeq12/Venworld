@@ -64,7 +64,8 @@ function Catalogue() {
           className="w-full h-fit overflow-x-scroll 
         scroll whitespace-nowrap scroll-smooth scrollbar-hide p-10"
         >
-     <Card headline="OUR VISION"/>
+     <Card headline="OUR VISION" 
+     text="At Venworld Global , our vision is to create innovative technology that transforms the world"/>
      <Card  headline="OUR IMPACT"/>
      <Card headline="OUR VALUE" />
      <Card headline="OUR PARTNERS" />
@@ -111,7 +112,7 @@ function Catalogue() {
 export default Catalogue;
 
 
-const Card = ({headline})=>{
+const Card = ({headline, text})=>{
     return(
         <div
         className="h-[30rem] mr-8 w-5/6 md:w-1/3 inline-block 
@@ -123,10 +124,10 @@ const Card = ({headline})=>{
           {headline}
         </h2>
         <div
-          className="w-[200px] mb-5  text-sm
+          className="w-[180px]  mb-5  text-sm
      mt-5"
         >
-          World class UX fddff <br /> with perfect interface Ux design{" "}
+         {text}
         </div>
         <div>
           <BsArrowRight className="text-gray-600" />

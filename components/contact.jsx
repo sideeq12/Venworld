@@ -41,7 +41,7 @@ const ContactUs = ()=>{
 
                 </div>
                 <div className="w-full md:w-1/3 md:pt-20 pt-10">
-                    <div className="bg-white max-sm:w-5/6 h-40 rounded-lg p-10 mb-10">
+                    <div className="bg-white max-sm:w-5/6 h-52 md:h-40 rounded-lg p-10 mb-10">
                     <h4 className="text-xl font-extrabold text-blue-800 mb-4">Office Address</h4>
                     <p className="text-sm font-light">Head quartered: Victoria Island,  <br />
                     Lagos, Nigeria</p>
